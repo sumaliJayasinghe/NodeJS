@@ -7,7 +7,6 @@ function Utill(){
     };
     add = (title, body) => {
         const data = readNotes();
-        debugger
         data.push({
             title:title,
             body:body
